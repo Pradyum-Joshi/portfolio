@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Pradyum Joshi – Penetration Tester & VAPT Analyst | Mumbai" />
+  <title>Pradyum Joshi | Penetration Tester</title>
+
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <!-- Google Fonts: JetBrains Mono + Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ══════════════════════════════
+       NAVBAR
+  ══════════════════════════════ -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-brand">
+      <span class="nb-bracket">[</span>pradyum@sec<span class="nb-tilde">~</span><span class="nb-bracket">]$</span>
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <i class="fas fa-bars"></i>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">about</a></li>
+      <li><a href="#skills">skills</a></li>
+      <li><a href="#experience">experience</a></li>
+      <li><a href="#projects">projects</a></li>
+      <li><a href="#labs">labs</a></li>
+      <li><a href="#certifications">certs</a></li>
+      <li><a href="#contact" class="nav-cta">contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- ══════════════════════════════
+       HERO
+  ══════════════════════════════ -->
+  <section class="hero" id="home">
+    <!-- Subtle dot-grid background -->
+    <div class="hero-bg" aria-hidden="true"></div>
+
+    <div class="hero-inner">
+
+      <!-- Left: terminal widget -->
+      <div class="hero-terminal" aria-label="Terminal widget">
+        <div class="term-bar">
+          <span class="dot dot-r"></span>
+          <span class="dot dot-y"></span>
+          <span class="dot dot-g"></span>
+          <span class="term-title">bash — pradyum</span>
+        </div>
+        <div class="term-body">
+          <p><span class="t-g">visitor@portfolio</span><span class="t-dim">:</span><span class="t-b">~</span>$ whoami</p>
+          <p class="t-out">pradyum_joshi</p>
+          <p><span class="t-g">visitor@portfolio</span><span class="t-dim">:</span><span class="t-b">~</span>$ cat role.txt</p>
+          <p class="t-out t-acc">Penetration Tester | VAPT Analyst</p>
+          <p><span class="t-g">visitor@portfolio</span><span class="t-dim">:</span><span class="t-b">~</span>$ echo $LOCATION</p>
+          <p class="t-out">Mumbai, India</p>
+          <p><span class="t-g">visitor@portfolio</span><span class="t-dim">:</span><span class="t-b">~</span>$ <span id="typedText"></span><span class="blink">▋</span></p>
+        </div>
+      </div>
+
+      <!-- Right: headline text -->
+      <div class="hero-text">
+        <p class="hero-pre">// Hello, World</p>
+        <h1 class="hero-name">Pradyum <span class="acc">Joshi</span></h1>
+        <p class="hero-role">Penetration Tester &amp; VAPT Analyst</p>
+        <p class="hero-desc">
+          3+ years hunting vulnerabilities across web apps and infrastructure.
+          OWASP Top 10 · Burp Suite · Metasploit · Kali Linux
+        </p>
+        <div class="hero-btns">
+          <a href="#projects" class="btn btn-solid">View Projects</a>
+          <a href="#contact"  class="btn btn-outline">Hire Me</a>
+        </div>
+      </div>
+
+    </div>
+
+    <a href="#about" class="scroll-down" aria-label="Scroll to about"><i class="fas fa-chevron-down"></i></a>
+  </section>
+
+  <!-- ══════════════════════════════
+       ABOUT
+  ══════════════════════════════ -->
+  <section class="section" id="about">
+    <div class="container">
+      <h2 class="sec-h"><span class="sec-n">01.</span> about_me</h2>
+      <div class="about-grid">
+
+        <div class="about-copy">
+          <p>
+            I'm a <strong>Penetration Tester and VAPT Analyst</strong> with 3+ years of hands-on cybersecurity
+            experience identifying and validating vulnerabilities in web applications and infrastructure.
+          </p>
+          <p>
+            At <strong>Hinduja Global Solutions</strong>, I conduct OWASP Top 10 assessments, run phishing
+            simulations that <strong>reduced incidents by 30%</strong>, and produce remediation-focused
+            vulnerability reports for development and ops teams.
+          </p>
+          <p>
+            Outside work I sharpen offensive skills on <strong>TryHackMe</strong> and <strong>Hack The Box</strong>,
+            and maintain a home lab running Kali Linux, DVWA, and OWASP Juice Shop. Currently pursuing the
+            <strong>eJPT certification</strong>.
+          </p>
+          <div class="about-chips">
+            <span><i class="fas fa-map-marker-alt"></i> Mumbai, India</span>
+            <span><i class="fas fa-briefcase"></i> Open to Opportunities</span>
+            <span><i class="fas fa-graduation-cap"></i> B.E. Information Technology</span>
+          </div>
+        </div>
+
+        <div class="about-stats">
+          <div class="stat-box">
+            <span class="sn">3+</span>
+            <span class="sl">Years in Security</span>
+          </div>
+          <div class="stat-box">
+            <span class="sn">OWASP</span>
+            <span class="sl">Top 10 Practitioner</span>
+          </div>
+          <div class="stat-box">
+            <span class="sn">30%</span>
+            <span class="sl">Phishing Reduction</span>
+          </div>
+          <div class="stat-box">
+            <span class="sn">eJPT</span>
+            <span class="sl">In Progress</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════
+       SKILLS
+  ══════════════════════════════ -->
+  <section class="section sec-alt" id="skills">
+    <div class="container">
+      <h2 class="sec-h"><span class="sec-n">02.</span> skills</h2>
+      <div class="skills-grid">
+
+        <div class="skill-card">
+          <h3><i class="fas fa-crosshairs"></i> Penetration Testing</h3>
+          <ul>
+            <li>OWASP Top 10</li>
+            <li>Web Application Testing</li>
+            <li>Vulnerability Discovery</li>
+            <li>Manual Exploitation</li>
+            <li>Reporting &amp; Remediation</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <h3><i class="fas fa-wrench"></i> Tools</h3>
+          <ul>
+            <li>Burp Suite</li>
+            <li>OWASP ZAP</li>
+            <li>Nmap / Masscan</li>
+            <li>Metasploit Framework</li>
+            <li>Wireshark</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <h3><i class="fas fa-desktop"></i> Platforms</h3>
+          <ul>
+            <li>Kali Linux</li>
+            <li>Ubuntu / Debian</li>
+            <li>Windows Server</li>
+            <li>DVWA / Juice Shop</li>
+          </ul>
+        </div>
+
+        <div class="skill-card">
+          <h3><i class="fas fa-brain"></i> Concepts</h3>
+          <ul>
+            <li>HTTP / HTTPS Analysis</li>
+            <li>Authentication Testing</li>
+            <li>Enumeration</li>
+            <li>Privilege Escalation</li>
+            <li>Phishing Simulation</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════
+       EXPERIENCE
+  ══════════════════════════════ -->
+  <section class="section" id="experience">
+    <div class="container">
+      <h2 class="sec-h"><span class="sec-n">03.</span> experience</h2>
+
+      <div class="timeline">
+
+        <div class="tl-item">
+          <div class="tl-dot"></div>
+          <div class="tl-card">
+            <div class="tl-meta">
+              <span><i class="fas fa-calendar-alt"></i> Oct 2022 – Present</span>
+              <span><i class="fas fa-building"></i> Hinduja Global Solutions, Mumbai</span>
+            </div>
+            <h3>VAPT Analyst / Penetration Tester</h3>
+            <ul>
+              <li>Conduct vulnerability assessments on internal applications and infrastructure</li>
+              <li>Perform web application testing aligned with OWASP Top 10</li>
+              <li>Operate Burp Suite, OWASP ZAP, and Nmap for active testing and recon</li>
+              <li>Validate vulnerabilities and assist development teams with remediation</li>
+              <li>Investigate phishing attempts and respond to security incidents</li>
+              <li>Designed phishing simulations — <strong>reduced incidents by 30%</strong></li>
+              <li>Produce detailed client-ready vulnerability assessment reports</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="tl-item">
+          <div class="tl-dot"></div>
+          <div class="tl-card">
+            <div class="tl-meta">
+              <span><i class="fas fa-calendar-alt"></i> Jan 2021 – Jan 2022</span>
+              <span><i class="fas fa-building"></i> U3S Creative Factory, Mumbai</span>
+            </div>
+            <h3>Server Administration Intern</h3>
+            <ul>
+              <li>Assisted in Linux and Windows server hardening and configuration</li>
+              <li>Supported vulnerability scanning, patch management, and security baselines</li>
+              <li>Monitored system logs and security events for anomalies</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Education card below timeline -->
+      <div class="edu-wrap">
+        <div class="edu-card">
+          <i class="fas fa-graduation-cap"></i>
+          <div>
+            <h3>Bachelor of Engineering — Information Technology</h3>
+            <h4>Shree L.R. Tiwari College of Engineering</h4>
+            <span>2018 – 2022 · Mumbai, India</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════
+       PROJECTS  (most important)
+  ══════════════════════════════ -->
+  <section class="section sec-alt" id="projects">
+    <div class="container">
+      <h2 class="sec-h"><span class="sec-n">04.</span> projects</h2>
+      <p class="sec-sub">Security research, hands-on testing, and automation tools.</p>
+
+      <div class="proj-grid">
+
+        <!-- Card 1 -->
+        <div class="proj-card">
+          <div class="proj-top">
+            <span class="proj-icon"><i class="fas fa-fish"></i></span>
+            <a href="#" class="proj-gh" title="GitHub" aria-label="GitHub link"><i class="fab fa-github"></i></a>
+          </div>
+          <h3>Phishing Simulation Platform</h3>
+          <p>
+            Custom phishing simulation tool built with Python and Linux that mimics real-world campaigns.
+            Tracks user interactions, captures response metrics, and generates awareness reports.
+            Deployed at Hinduja Global Solutions.
+          </p>
+          <div class="proj-tags">
+            <span>Python</span><span>Linux</span><span>Social Engineering</span><span>Awareness</span>
+          </div>
+          <!-- Highlight impact -->
+          <div class="proj-impact">
+            <i class="fas fa-chart-line"></i> <strong>30% reduction</strong> in phishing incidents
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="proj-card">
+          <div class="proj-top">
+            <span class="proj-icon"><i class="fas fa-lemon"></i></span>
+            <a href="#" class="proj-gh" title="GitHub" aria-label="GitHub link"><i class="fab fa-github"></i></a>
+          </div>
+          <h3>OWASP Juice Shop Testing</h3>
+          <p>
+            Full OWASP Top 10 security assessment on OWASP Juice Shop. Identified and exploited XSS,
+            authentication bypass, and injection vulnerabilities. Documented proof-of-concept payloads
+            and recommended mitigations for each finding.
+          </p>
+          <div class="proj-tags">
+            <span>Burp Suite</span><span>OWASP ZAP</span><span>XSS</span><span>Auth Testing</span><span>OWASP Top 10</span>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="proj-card">
+          <div class="proj-top">
+            <span class="proj-icon"><i class="fas fa-database"></i></span>
+            <a href="#" class="proj-gh" title="GitHub" aria-label="GitHub link"><i class="fab fa-github"></i></a>
+          </div>
+          <h3>DVWA Testing Lab</h3>
+          <p>
+            Exploited SQL Injection, Reflected &amp; Stored XSS, Command Injection, File Upload, and CSRF
+            in DVWA. Used manual payloads alongside Burp Suite for interception and exploitation.
+            Each finding documented with severity, impact, and remediation.
+          </p>
+          <div class="proj-tags">
+            <span>SQL Injection</span><span>XSS</span><span>Command Injection</span><span>Burp Suite</span><span>DVWA</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════
+       LABS
+  ══════════════════════════════ -->
+  <section class="section" id="labs">
+    <div class="container">
+      <h2 class="sec-h"><span class="sec-n">05.</span> labs &amp; practice</h2>
+      <p class="sec-sub">Continuous skill development through real-world attack simulation platforms.</p>
+      <div class="labs-grid">
+
+        <div class="lab-card">
+          <div class="lab-ic"><i class="fas fa-flag"></i></div>
+          <h3>TryHackMe</h3>
+          <p>Web hacking, enumeration, and privilege escalation learning paths.</p>
+          <div class="lab-tags">
+            <span>Web Hacking</span><span>Enumeration</span><span>Privesc</span>
+          </div>
+          <a href="https://tryhackme.com" target="_blank" rel="noopener" class="lab-link">
+            Profile <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+
+        <div class="lab-card">
+          <div class="lab-ic"><i class="fas fa-cube"></i></div>
+          <h3>Hack The Box</h3>
+          <p>Retired machine walkthroughs focusing on recon, exploitation, and post-exploitation.</p>
+          <div class="lab-tags">
+            <span>Recon</span><span>Exploitation</span><span>Post-Exploitation</span>
+          </div>
+          <a href="https://hackthebox.com" target="_blank" rel="noopener" class="lab-link">
+            Profile <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+
+        <div class="lab-card">
+          <div class="lab-ic"><i class="fas fa-flask"></i></div>
+          <h3>Home Lab</h3>
+          <p>Self-hosted environment with Kali Linux, DVWA, and OWASP Juice Shop for daily practice.</p>
+          <div class="lab-tags">
+            <span>Kali Linux</span><span>DVWA</span><span>Juice Shop</span>
+          </div>
+          <span class="lab-local"><i class="fas fa-lock"></i> Local Environment</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════
+       CERTIFICATIONS
+  ══════════════════════════════ -->
+  <section class="section sec-alt" id="certifications">
+    <div class="container">
+      <h2 class="sec-h"><span class="sec-n">06.</span> certifications</h2>
+      <div class="certs-grid">
+
+        <div class="cert-card cert-highlight">
+          <div class="cert-ic"><i class="fas fa-certificate"></i></div>
+          <div class="cert-info">
+            <h3>eJPT — Junior Penetration Tester</h3>
+            <p>INE / eLearnSecurity</p>
+            <span class="badge badge-progress">In Progress</span>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-ic"><i class="fas fa-award"></i></div>
+          <div class="cert-info">
+            <h3>Cisco Networking Academy — Ethical Hacker</h3>
+            <p>Cisco</p>
+            <span class="badge badge-done">Completed</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════
+       CONTACT
+  ══════════════════════════════ -->
+  <section class="section" id="contact">
+    <div class="container">
+      <h2 class="sec-h"><span class="sec-n">07.</span> contact</h2>
+      <p class="sec-sub">Available for penetration testing engagements, VAPT contracts, and full-time roles.</p>
+
+      <div class="contact-grid">
+
+        <a href="mailto:pradyumjoshi1005@gmail.com" class="contact-card">
+          <i class="fas fa-envelope"></i>
+          <div>
+            <span class="c-lbl">Email</span>
+            <span class="c-val">pradyumjoshi1005@gmail.com</span>
+          </div>
+        </a>
+
+        <a href="tel:+917021368936" class="contact-card">
+          <i class="fas fa-phone"></i>
+          <div>
+            <span class="c-lbl">Phone</span>
+            <span class="c-val">+91 70213 68936</span>
+          </div>
+        </a>
+
+        <a href="https://linkedin.com/in/pradyumjoshi" target="_blank" rel="noopener" class="contact-card">
+          <i class="fab fa-linkedin"></i>
+          <div>
+            <span class="c-lbl">LinkedIn</span>
+            <span class="c-val">linkedin.com/in/pradyumjoshi</span>
+          </div>
+        </a>
+
+        <a href="https://github.com/pradyumjoshi" target="_blank" rel="noopener" class="contact-card">
+          <i class="fab fa-github"></i>
+          <div>
+            <span class="c-lbl">GitHub</span>
+            <span class="c-val">github.com/pradyumjoshi</span>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════
+       FOOTER
+  ══════════════════════════════ -->
+  <footer class="footer">
+    <p class="foot-cmd"><span class="t-acc">pradyum@sec</span>:<span class="t-b">~</span>$ echo "Built with HTML · CSS · JS"</p>
+    <p class="foot-note">© 2025 Pradyum Joshi · Deployed on GitHub Pages · No frameworks, no backend.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
